@@ -5,17 +5,27 @@ layout: risk
 doc-status: Draft
 type: SEC
 nist-sp-800-53r5_references:
- 
+SI‑2 – Flaw Remediation - Requires timely identification, reporting, and correction of software flaws.
+
+RA‑5 – Vulnerability Monitoring and Scanning - Mandates scanning for vulnerabilities and tracking remediation.
+
+SI‑7 – Software, Firmware, and Information Integrity - Ensures protection against unauthorized modification.
+
+CM‑7 – Least Functionality - Reduces attack surface by limiting unnecessary components.
+
+SR‑3 – Supply Chain Controls - Addresses risks from unsupported or abandoned third‑party components.
+
 ffiec-itbooklets_references:
   
 related_risks:
   - ri-4   # Vulnerable Software in Production
+  - ri-2   # Software Supply Chain Vulnerability
 ---
+
 
 ## Summary
 
-An external attacker gains the ability to run unauthorised workloads within an organisation's production infrastructure, establishing a persistent operational presence that enables data theft, resource abuse, and lateral movement across internal systems.
-
+Unmaintained software artifacts are software components, systems, or deliverables that are no longer actively supported, updated, or monitored by their original maintainers or responsible teams. This poses risks spanning security, operations, compliance, and business continuity.
 ## Description
 
 While unauthorised system access (ri-6) concerns access governance failures, environment breach describes a more severe state: the attacker has moved beyond access to achieve persistent execution capability within the production environment, running their own code alongside legitimate services. This can result from exploitation of vulnerabilities in exposed services, compromised container orchestration platforms, misconfigured cloud IAM policies, or abuse of legitimate deployment mechanisms. The attacker operates within the organisation's own infrastructure, making detection significantly harder and the potential impact far greater.
@@ -37,3 +47,4 @@ While unauthorised system access (ri-6) concerns access governance failures, env
 * **Severe reputational damage** — Disclosure that an external attacker was running their own workloads inside a financial institution's production environment represents a serious breach of trust that can significantly damage the institution's standing with customers, partners, and regulators.
 
 ## Links
+* https://owasp.org/Top10/2025/A03_2025-Software_Supply_Chain_Failures/
