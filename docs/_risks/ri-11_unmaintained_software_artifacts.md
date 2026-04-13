@@ -5,15 +5,15 @@ layout: risk
 doc-status: Draft
 type: SEC
 nist-sp-800-53r5_references:
-SI‑2 – Flaw Remediation - Requires timely identification, reporting, and correction of software flaws.
+  - SI‑2 – Flaw Remediation - Requires timely identification, reporting, and correction of software flaws.
 
-RA‑5 – Vulnerability Monitoring and Scanning - Mandates scanning for vulnerabilities and tracking remediation.
+  - RA‑5 – Vulnerability Monitoring and Scanning - Mandates scanning for vulnerabilities and tracking remediation.
 
-SI‑7 – Software, Firmware, and Information Integrity - Ensures protection against unauthorized modification.
+  - SI‑7 – Software, Firmware, and Information Integrity - Ensures protection against unauthorized modification.
 
-CM‑7 – Least Functionality - Reduces attack surface by limiting unnecessary components.
+  - CM‑7 – Least Functionality - Reduces attack surface by limiting unnecessary components.
 
-SR‑3 – Supply Chain Controls - Addresses risks from unsupported or abandoned third‑party components.
+  - SR‑3 – Supply Chain Controls - Addresses risks from unsupported or abandoned third‑party components.
 
 ffiec-itbooklets_references:
   
